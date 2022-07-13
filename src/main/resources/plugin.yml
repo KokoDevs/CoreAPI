@@ -1,0 +1,6 @@
+name: KokoAPI
+version: '${project.version}'
+main: me.kokodevs.kokoapi.KokoAPI
+api-version: 1.18
+authors: [ KokoDevs ]
+description: An API that should make coding easier.
