@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.kokodevs</groupId>
-    <artifactId>KokoAPI</artifactId>
+    <artifactId>CoreAPI</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>KokoAPI</name>
+    <name>CoreAPI</name>
 
     <description>An API that should make coding easier.</description>
     <properties>
@@ -42,7 +42,7 @@
                             <relocations>
                                 <relocation>
                                     <pattern>io.puharesource.mc.titlemanager</pattern>
-                                    <shadedPattern>me.kokodevs.kokoapi.shade</shadedPattern>
+                                    <shadedPattern>me.kokodevs.coreapi.shade</shadedPattern>
                                 </relocation>
                             </relocations>
                         </configuration>

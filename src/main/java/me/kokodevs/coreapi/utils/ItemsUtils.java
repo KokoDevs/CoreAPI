@@ -1,4 +1,4 @@
-package me.kokodevs.kokoapi.utils;
+package me.kokodevs.coreapi.utils;
 
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;

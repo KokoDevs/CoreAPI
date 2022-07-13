@@ -1,6 +1,6 @@
-package me.kokodevs.kokoapi.utils;
+package me.kokodevs.coreapi.utils;
 
-import me.kokodevs.kokoapi.KokoAPI;
+import me.kokodevs.coreapi.CoreAPI;
 import org.bukkit.SoundCategory;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -48,7 +48,7 @@ public class SoundUtils {
                     this.cancel();
                 }
             }
-        }).runTaskTimer(KokoAPI.getPlugin(), 0L, (long)length * 20);
+        }).runTaskTimer(CoreAPI.getPlugin(), 0L, (long)length * 20);
     }
     public static void stopMusicLoop(Player player, String music){
         if(!playerLoopSounds.containsKey(player)){

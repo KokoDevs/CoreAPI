@@ -1,14 +1,14 @@
-package me.kokodevs.kokoapi;
+package me.kokodevs.coreapi;
 
 import io.puharesource.mc.titlemanager.api.v2.TitleManagerAPI;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
-public final class KokoAPI extends JavaPlugin {
+public final class CoreAPI extends JavaPlugin {
 
     public static TitleManagerAPI titleManager;
-    private static KokoAPI plugin;
+    private static CoreAPI plugin;
 
     @Override
     public void onEnable() {
@@ -25,7 +25,7 @@ public final class KokoAPI extends JavaPlugin {
         // Plugin shutdown logic
     }
 
-    public static KokoAPI getPlugin(){
+    public static CoreAPI getPlugin(){
         return plugin;
     }
 
